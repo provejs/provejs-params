@@ -21,7 +21,7 @@ myFunction([], []);
 ```
 will result in
 ```bash
-{ Error: Argument #2: Expected function but got array
+{ Error: Argument #2: Expected `function` but got `array`
     at myFunction (/Users/dan/repos/.../test.js:122:2)
     at Object.<anonymous> (/Users/dan/repos/.../test.js:125:1)
     at Module._compile (module.js:570:32)
