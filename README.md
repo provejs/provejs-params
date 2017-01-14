@@ -98,49 +98,49 @@ Supported Types
 <tr>
 
 <tr>
-<td>A</td>
+<td>a</td>
 <td>Array or Arguments</td>
 <td>false</td>
 <tr>
 
 <tr>
-<td>S</td>
+<td>s</td>
 <td>String</td>
 <td>false</td>
 <tr>
 
 <tr>
-<td>N</td>
+<td>n</td>
 <td>Number</td>
 <td>false</td>
 <tr>
 
 <tr>
-<td>F</td>
+<td>f</td>
 <td>Function</td>
 <td>false</td>
 <tr>
 
 <tr>
-<td>O</td>
+<td>o</td>
 <td>Object</td>
 <td>falsee</td>
 <tr>
 
 <tr>
-<td>B</td>
+<td>b</td>
 <td>Boolean</td>
 <td>false</td>
 <tr>
 
 <tr>
-<td>G</td>
+<td>g</td>
 <td>Arguments</td>
 <td>false</td>
 <tr>
 
 <tr>
-<td>E</td>
+<td>e</td>
 <td>Error</td>
 <td>false</td>
 <tr>
