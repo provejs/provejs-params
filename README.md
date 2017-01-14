@@ -1,13 +1,20 @@
 # prove-params
 
-
 Prove function parameters using a simple schema.
+
+## Install
+
+```bash
+npm install prove-params --save
+```
+
+## Usage
 
 ```js
 var Prove = require('prove-params');
 
 function myFunction(myArray, myNumber) {
-	Prove('ANF', arguments);
+	Prove('AN', arguments);
 }
 
 myFunction([], []);
