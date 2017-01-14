@@ -17,7 +17,7 @@ function myFunction(myArray, myNumber) {
 	Prove('AN', arguments);
 }
 
-myFunction([], []);
+myFunction([], []); // bug here
 ```
 will result in
 ```bash
