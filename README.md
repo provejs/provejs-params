@@ -21,7 +21,7 @@ myFunction([], []); // bug here
 ```
 will result in
 ```bash
-{ Error: Argument #2: Expected `function` but got `array`
+{ Error: Argument #2: Expected `number` but got `array`
     at myFunction (/Users/dan/repos/.../test.js:122:2)
     at Object.<anonymous> (/Users/dan/repos/.../test.js:125:1)
     at Module._compile (module.js:570:32)
@@ -110,7 +110,7 @@ Supported Types
 <tr>
 <td>o</td>
 <td>Object</td>
-<td>falsee</td>
+<td>false</td>
 <tr>
 <tr>
 <td>b</td>
