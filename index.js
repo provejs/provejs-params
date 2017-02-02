@@ -24,7 +24,9 @@ function isString(arg) {
 }
 
 function isNumber(arg) {
-	return typeof arg === 'number';
+	var isNum = (typeof arg === 'number');
+	var isNan = isNaN(arg);
+	return isNum && !isNan;
 }
 
 function isFunction(arg) {
