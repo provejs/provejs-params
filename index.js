@@ -25,8 +25,8 @@ function isString(arg) {
 
 function isNumber(arg) {
 	var isNum = (typeof arg === 'number');
-	var isNan = isNaN(arg);
-	return isNum && !isNan;
+	var isFin = isFinite(arg);
+	return isNum && isFin;
 }
 
 function isFunction(arg) {
@@ -54,6 +54,7 @@ var dsls = {
 	'A': ['array', isArray, true],
 	'S': ['string', isString, true],
 	'N': ['number', isNumber, true],
+	'M': ['finite number', isFinite, true],
 	'F': ['function', isFunction, true],
 	'O': ['object', isObject, true],
 	'B': ['boolean', isBoolean, true],
@@ -63,6 +64,7 @@ var dsls = {
 	'a': ['array', isArray, false],
 	's': ['string', isString, false],
 	'n': ['number', isNumber, false],
+	'm': ['finite number', isFinite, false],
 	'f': ['function', isFunction, false],
 	'o': ['object', isObject, false],
 	'b': ['boolean', isBoolean, false],

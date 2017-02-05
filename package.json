@@ -1,0 +1,25 @@
+{
+  "name": "provejs-params",
+  "version": "1.0.1",
+  "description": "Prove function parameters using a simple schema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/provejs/provejs-params.git"
+  },
+  "keywords": [
+    "validate",
+    "validation",
+    "arguments",
+    "parameters"
+  ],
+  "author": "dan@hollenbecks.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/provejs/provejs-params/issues"
+  },
+  "homepage": "https://github.com/provejs/provejs-params#readme"
+}
